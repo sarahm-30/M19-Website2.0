@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M19-Micropore Analyzer</title>
+  <link rel="stylesheet" href="/dist/Industry Pages/styleprod.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Condensed">
+
+
+
+  <!-- Favicons -->
+  <link href="/images/favicon new.png" rel="icon">
+  <link rel="stylesheet" href="/dist/Industry Pages/styleprod.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/b078cd548f.js" crossorigin="anonymous"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+  <style>
+    html {
+      height: 1.618;
+     
+    }
+    body {
+        font-family: 'Roboto Condensed',sans-serif;
+    }
+    .bg {
+      background-color: #f5f5f5;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 10%;
+      height: 100vh;
+      z-index: 1;
+    } 
+    .section {
+      display: flex; 
+      min-height: 100vh;
+      position: relative;
+      z-index: 2;
+    }
+    .section > * {
+      width: 50%; 
+    }
+    .section-img {
+      position: relative;
+      display: flex;
+      
+    }
+    .section-img-inner {
+      height: 110vh;
+      position: fixed;
+      left: -15%;
+      width: 80%;
+      top: 0;
+      mix-blend-mode: multiply;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      filter: blur(10px);
+      opacity: 0;
+      background-position: 50% 40%;
+      /*transition: .6s ease, opacity .6s ease, background-position .8s ease;*/
+    }
+    .section-body {
+      display: flex;
+      align-items: center;
+      background-color: #f5f5f5;
+	 
+    }
+    .section-text {
+      padding: 5vw;
+    }
+    .section.active .section-img-inner {
+      opacity: 1;
+      background-position: 50% 50%;
+      filter: blur(0);
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 0.5em;
+      margin-top: 0;
+      font-weight: 400;
+    }
+    .video-playback{
+      width:700px;
+      height:600px;
+      margin-left: -60px;
+      border-radius: 50px;
+      
+     
+      
+      
+    }
+  button{
+  color: #000;
+  padding: 8px 35px;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 190px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+button:hover{
+  opacity: 0.7s;
+  border: 1px solid #00c7c8;
+  color: #00c7c8;
+  
+}
+.section-text p {
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 10px;
+}
+::-webkit-scrollbar {
+      width: 5px;
+      background-color: #f5f5f5;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #d5d5d5;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #00c7c8;
+    }
+
+    
+
+  </style>
+
+<!--<div class="menu">
+  <a href="/dist/index.html"><img src="/2logo.png" style="height: 50px;width: 170px;margin-left: -620px;margin-top: 10px;"> </a>
+</div>-->
+
+  <div class="bg"></div>
+  <div class="section" id="section-11">
+    <div class="section-img" >
+      <div class="section-img-inner" style="background-image: url(/images/productimg11.png);"></div>
+    </div>
+    <div class="section-body" data-aos="fade-down" >
+      <div class="section-text">
+        <h2>MICROPORE ANALYZER</h2>
+        <img src="/images/hr new prod.png" style=" width:480px;height: 150px; margin-top: -100px;margin-left: -60px;">
+		    <h4 style="font-size: 15px;font-weight: 400;margin-top: -60px;">CUSTOM MADE FOR FILTRATION INDUSTRY</h4>
+        <p style="margin-top: 20px;"> 
+			Standard: ASTM F316, ASTM D6767 <br>
+			Measurement range: 0.1-100 microns <br>
+			Test Duration: 0-3 min <br>
+			Precision: 99.99% <br>
+
+          <button type="button" style="border-radius: 50px;transition: 0.3s;"><b>Order Now</b></button><br>
+          <p style="font-size: 0.8em;font-style: italic;">Preorder now for $100. You will be able to customize the specification over the next 2 weeks with support from our technical team.</p><br><br><br><br><br>
+
+        </p>   
+      </div>
+    </div> 
+  </div>  
+
+  <div class="section">
+    <div class="section-img">
+      <div class="section-img-inner" style="background-image: url(/images/productimg11.png);"></div>
+    </div>
+    <div class="section-body">
+      <div class="section-text">
+        <h2>TECHNOLOGY</h2>
+        <img src="/images/hr new prod.png" style=" width:400px;height: 150px; margin-top: -100px;margin-left: -45px;">
+
+        <p style="margin-top: -20px;">
+          The MicroPore Analyzer device is one of the most advanced pore size analyzers in the market. The device is based on liquid displacement and capillary flow porometry technology. The device is custom-made for filtration industry and perfectly suited for performance evaluation of almost all types filtration products.
+
+
+        </p>
+        
+      </div>
+    </div>
+  </div>
+
+    <div class="section">
+      <div class="section-img">
+        <div class="section-img-inner" style="background-image: url(/images/productimg11.png);"></div>
+      </div>
+      <div class="section-body">
+        <div class="section-text">
+          <h2 style="margin-left: -1px;">APPLICATION</h2>
+          
+          <ul style="line-height: 2em; text-align: justify; font-size: 18px; margin-left: 40px;">
+            <li>Air Filter Products</li>
+            <li>Hepa Filters</li>
+            <li>Woven/Non-Wovens</li>
+            <li>Spunbond Media</li>
+            <li>Meltdown Media</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-img">
+        <div class="carousel-item"  class="section-img-inner">
+          <video autoplay loop muted plays-inline class="video-playback">
+            <source src="/images/Website-Products.mp4" muted loop autoplay type="video/mp4" >
+          </video>
+         
+        </div>
+        <!--<div class="section-img-inner" style="background-image: url(4.png);"></div>-->
+      </div>
+      <div class="section-body">
+        <div class="section-text" style="margin-top: -80px;">
+          <h2>CUTTING EDGE DESIGN</h2>
+          <img src="/images/hr new prod.png" style=" width:490px;height: 150px; margin-top: -100px;margin-left: -56px;">
+
+          <h4 style="font-size: 15px;font-weight: 400;margin-top: -60px;margin-left: 5px;">SIMPLE | INTELLIGENT | MORE INTEGRATED</h4>
+          <p style="margin-top: 50px;">
+            The hardware system has evolved into a highly sophisticated instrument with increased ease-of-operation, data accuracy, reliability and end-to-end automated operation.
+          </p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-img">
+        <div class="carousel-item" data-bs-interval="4000" class="section-img-inner">
+          <video autoplay loop muted plays-inline class="video-playback">
+            <source src="/images/Website-Products (1).mp4" muted loop autoplay type="video/mp4" >
+          </video>
+         
+        </div>
+        <!--<div class="section-img-inner" style="background-image: url(4.png);"></div>-->
+      </div>
+      <div class="section-body">
+        <div class="section-text" style="margin-top: -10px;">
+          <h2>ADVANCED SOFTWARE</h2>
+          <img src="/images/hr new prod.png" style=" width:490px;height: 150px; margin-top: -100px;margin-left: -60px;">
+
+          <h4 style="font-size: 15px;font-weight: 400;margin-top: -60px;">AI BASED | DYNAMIC REPORTS | EASY TO USED</h4>
+          <p style="margin-top: 50px;">
+            Unprecedented visualization and collaboration using new M19 software control program and test report program. Experience the power of A.I based cognitive software control program that virtually eliminated user bias throughout the data acquisition process and data interpretation, redefining the way data is generated and consumed by your team.</p><br> 
+            <button type="button" style="border-radius: 50px;transition: 0.3s; margin-top: 2px;"><b>Book Now</b></button>
+            <button type="button" style="border-radius: 50px;transition: 0.3s; margin-top: 2px;margin-left: 10px;"><b>Download Brochure</b></button>
+
+          </div>
+      </div>
+    </div>
+
+
+    <section id="section-9" data-aos="zoom-in" style="margin-top: 40px;margin-bottom: 80px;">
+      <h2 class="title">FAQ's</h2>
+        <div class="faq">
+            <div class="question">
+                <h3>What is Micropore Analyzer used for?</h3>
+                <i class="fa fa-chevron-circle-down" ></i>
+
+                
+            </div>
+            <div class="answer">
+                <p>This is not your conventional laboratory. It’s a confidential lab membership program for product innovators to get access to material testing facilities and gain exclusive product performance insights.</p>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <div class="question">
+                <h3>How does Micropore work?</h3>
+                <i class="fa fa-chevron-circle-down" ></i>
+
+                
+            </div>
+            <div class="answer">
+                <p>Members pay a monthly or annual flat fee depending on their volume of testing requirements; and get access to an online portal to place orders, view results, and create their own personal R&D database. </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>Who uses Micropore instruments?</h3>
+                <i class="fa fa-chevron-circle-down" ></i>
+
+                
+            </div>
+            <div class="answer">
+                <p>Manufacturers, Industries, Research Institutes, Govt. Labs, Academia, and selected Startups can get access to the membership programs. An individual person is not allowed. </p>
+            </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+              <h3>What are Micropore Analyzer benefits?</h3>
+              <i class="fa fa-chevron-circle-down" ></i>
+
+              
+          </div>
+          <div class="answer">
+              <p>Members get access to their industry-related lab testing services, customized research services, industry insights, lab data management platform, and training courses. </p>
+          </div>
+      </div>
+      <div class="faq">
+        <div class="question">
+            <h3>What are the basic requirements for Micropore Analyzer usage?</h3>
+            <i class="fa fa-chevron-circle-down" ></i>
+
+            
+        </div>
+        <div class="answer">
+            <p>You need to apply for the membership program and get accepted, or you have to be referred by an existing member. </p>
+        </div>
+    </div>
+    <div class="faq">
+      <div class="question">
+          <h3>How will Micropore Analyzer help my company?</h3>
+          <i class="fa fa-chevron-circle-down" ></i>
+
+          
+      </div>
+      <div class="answer">
+          <p>Members gain a competitive advantage by getting deep material insights into their products. Some members use our services to verify vendor selections. </p>
+      </div>
+  </div>
+  <div class="faq">
+    <div class="question">
+        <h3>Are there any other hidden charges?</h3>
+        <i class="fa fa-chevron-circle-down" ></i>
+
+        
+    </div>
+    <div class="answer">
+        <p>There are no annual fees and no hidden charges with M19 Lab Membership. M19 Lab offers the option of paying in EMIs up to 12 months.</p>
+    </div>
+</div>
+<div class="faq">
+  <div class="question">
+      <h3>Can I cancel my membership?</h3>
+      <i class="fa fa-chevron-circle-down" ></i>
+
+      
+  </div>
+  <div class="answer">
+      <p>You can cancel your membership within 30 days to get a full refund. For monthly users; you can cancel your membership anytime. </p>
+  </div>
+</div>
+
+
+
+
+
+
+    </section>
+
+    
+
+    <section id="section-11" style="height: 300px;overflow-y: hidden;">
+      <footer>
+        <div class="pot" style="margin-top: -390px;">
+          <div class="footer-content">
+           
+            <a href="#section-11"><button type="button" style="margin-left: -60px;" >Return to Top</button></a> 
+  
+  
+            <img src="/images/hr line.png">
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab rerum placeat magni, tenetur numquam sequi quos! Quia alias totam facere accusantium, eum ut id, eius at veniam labore placeat sed.</p>-->
+            <ul class="socials">
+              <li><a href="/dist/Industry pages/contact.html">Contact</a></li>
+              <li><a href="https://twitter.com/m19_lab" target="_blank">Twitter</a></li>
+              <li><a href="https://www.youtube.com/@m19lab91" target="_blank">Youtube</a></li>
+              <li><a href="https://www.linkedin.com/company/m19/mycompany/
+                " target="_blank">Linkedin</a></li>
+            </ul>
+          </div>
+          
+        </div>
+          <div class="footer-bottom">
+            <p>Copyright &copy; 2020 M19 Lab All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
+        
+    
+  
+    </section>
+
+  
+  
+
+
+    
+  
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    $(window).scroll(function(){
+      let $window = $(window),
+          $body = $('body'),   
+          $section = $('.section');
+      let scroll = $window.scrollTop() + ($window.height() / 3);
+      $section.each(function(){ 
+        if($(this).position().top <= scroll && $(this).position().top + $(this).height() > scroll){
+          $body.removeClass(function (index, css){
+            return (css.match (/(^|\s)color-\s+/g) || [].join(' '));
+          });
+          $('.section').removeClass('active');
+          $(this).addClass('active');
+        }
+      });
+    }).scroll();
+
+
+    
+</script>
+
+   
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="/dist/Industry pages/app.js"></script>
+<script>
+  AOS.init({
+    offset:300,
+    duration:400
+  });
+</script>
+
+
+
+
+</body>
+</html>
+
+

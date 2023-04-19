@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta charset="UTF-8">
+  <title>M19-Home Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Condensed">
+
+
+  <!-- Favicons -->
+  <link href="../images/favicon new.png" rel="icon">
+  
+  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+      <!-- Font-awesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+  
+
+  
+
+
+  <link href="/boxicons/css/boxicons.css" rel="stylesheet">
+  <style>
+    .icon00-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 900px;
+  
+}
+
+/* Set the width of each icon to fit 6 in a row */
+.icon00 {
+  width: calc(100% / 6);
+  height: auto;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+/* Optional styling for the icon image */
+.icon00 img {
+  display: block;
+  max-width: 90%;
+  height: 100%;
+  margin-left: 110px;
+  margin-top: 70px;
+}
+.icon00 p{
+  color: #fff;
+ 
+  cursor: pointer;
+  transition: 0.3s;
+}
+.icon00 p:hover{
+  color: #00c7c8;
+}
+
+
+.icon00 a{
+text-decoration: none;
+}
+
+  </style>
+
+  
+    
+
+</head>
+<body>
+
+  <div class="popup-screen">
+    <div class="popup-box">
+        <i class="fa fa-times close-btn" aria-hidden="true"></i>
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore in laboriosam minus facere ex eaque numquam, possimus placeat? Dolor voluptates aut unde inventore beatae ad saepe illo repellendus eos.</p>
+        <a href="https://www.youtube.com/@m19lab91" class="btn">Subscribe</a>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    const popupScreen = document.querySelector(".popup-screen");
+    const popupbox = document.querySelector(".popup-box");
+    const closebtn = document.querySelector(".close-btn");
+
+
+    window.addEventListener("load", () => {
+        setTimeout( () => {
+            popupScreen.classList.add("active");
+        },2000);
+    });
+
+    closebtn.addEventListener("click", () => {
+        popupScreen.classList.remove("active");
+        //cookie
+        /*document.cookie = "WebsiteName=testWebsite; max-age=" + 24 * 60 * 60;*/
+    });
+
+   /* const WebsiteCookie = document.cookie.indexOf("WebsiteName=");
+
+    if(WebsiteCookie != -1){
+        popupScreen.style.display = "none";
+
+    }
+    else{
+        popupScreen.style.display = "flex";
+    }*/
+</script>
+
+
+<!-- partial:index.partial.html -->
+<a id="top"></a>
+<!--<div class="arrow-btn">
+  <a href="#"><span class="fa fa-angle-up"></span></a>
+</div>-->
+
+
+<div class="container">
+  <section id="section-1">
+    <section id="hero" >
+      <div class="hero-container">
+         
+        <video autoplay loop muted plays-inline class="back-video" >
+            <source src="/CAN ACHIEVE THE IMPOSSIBLE.mp4" muted loop autoplay type="video/mp4" >
+        </video>
+        <h1 style="color: #fff; font-size: 2.8em; font-weight: 400;margin-top: 450px;text-align: center;letter-spacing: 1px;">MAN | MACHINES | MATERIALS</h1>
+        <h3 style="color: #fff; font-size: 1.3em; font-weight: 400;margin-top: 0px;text-align: center;letter-spacing: 2px;">CAN ACHIEVE THE IMPOSSIBLE</h3>
+        <!--<a id="scroll-btn" href="#section-2" style="margin-left: 590px; opacity: 0.5;"></a>-->
+        <!--<a  href="#section-2"  class="btn-get-started scrollto" style="margin-bottom: 120px; scroll-behavior: smooth;" ><i class="bx bx-chevrons-down bx-lg"></i></a>-->
+
+        <!--<h5 id="section07" class="demo" id="demo" style="margin-right: 50px;">
+          
+               <a href="#section-2"><span></span><span></span><span></span></a>
+        </h5>-->
+      </div>
+
+
+    </section><!-- End Hero -->
+
+  </section>
+
+
+  
+
+
+  <section id="section-2" class="showcase" >
+    <header>
+
+       
+      <div class="menu">
+        <a href="/dist/index.html"><img src="/1logo.png" style="height: 60px;width: 180px;margin-left: -1140px;margin-top: -30px;"> </a>
+      </div>
+         <!--<h2 class="logo" style="z-index: 9; opacity: 1;"><a href="index.html"><img src="/2logo.png"></a></h2>-->
+          <!--<div class="toggle "></div>-->
+          <a href="#section-6" ><button type="button" style="margin-left: 1000px;padding: 6px 55px;font-size: 15px;margin-top: 20px;" >Sign&nbsp;Up</button></a>
+          <div class="">
+
+          <button type="button" class="nav-toggle" style="top:1%;margin-right: 5px;" ><i class="bx bx-menu " style="font-size: 2.8em;" ></i>
+        </button>
+        <nav class="nav-menu" >
+
+          
+          <ul>
+            <li class="active"><a href="#header" class="scrollto">Home</a></li>
+           <!-- <li><a href="#about" class="scrollto">Products</a></li>
+            <li><a href="#why-us" class="scrollto">About Us</a></li>-->
+            <li class="drop-down"><a href="#" >Industries<i class="fa fa-caret-down" style="margin-left: 130px;"></i></a>
+
+              <ul>
+                <li><a href="/dist/Industry pages/defense.html" target="_blank">Defense</a></li>
+                <li class="drop-down"><a href="/dist/Industry pages/aerospace.html" target="_blank">Space Research</a>
+                  <!--<ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2 </a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>-->
+                </li>
+                <li><a href="/dist/Industry pages/Oil & Gas.html" target="_blank">Oil & Gas</a></li>
+                <li><a href="/dist/Industry pages/Air.html" target="_blank">Air Pollution</a></li>
+                <li><a href="/dist/Industry pages/Water Filtration.html" target="_blank">Water Purification</a></li>
+                <li><a href="/dist/Industry pages/Pharma.html" target="_blank">Pharmaceuticals</a></li>
+                <li><a href="/dist/Industry pages/Techtexiles.html" target="_blank">Technical Textiles</a></li>
+                <li><a href="/dist/Industry pages/Energy.html" target="_blank">Energy</a></li>
+                <li><a href="/dist/Industry pages/chemical.html" target="_blank">Chemical</a></li>
+                <li><a href="/dist/Industry pages/Packaging.html" target="_blank">Packaging</a></li>
+                <li><a href="/dist/Industry pages/prsnlhygiene.html" target="_blank">Personal Hygiene</a></li>
+               
+              </ul>
+            </li>
+            <li class="active"><a href="/dist/Industry pages/contact.html" target="_blank" class="scrollto">Contact Us</a></li>
+            <!--<li class="active"><a href="#header" class="scrollto">Blog</a></li>-->
+        
+          </ul>
+        </nav><!-- .nav-menu -->
+      </header>
+
+    <video src="/M19-Side2video.mov" muted loop autoplay type="video/mov"></video>
+
+    <div class="overlay" >
+
+      <div class="text" >
+        <!--<h2>Welcome to M19</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam non iste reiciendis architecto, animi provident officiis temporibus illo cum libero illum sunt eum? Nemo corrupti reprehenderit accusamus quos deserunt!</p>-->
+        <div class="containersolo" style="text-align: center;">
+                <h1><span class="auto-type"></span></h1>
+        </div>
+          
+
+
+
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+                <script>
+                    var typed = new Typed(".auto-type", {
+
+                        strings:["Scientific Instruments for <br>  Material Research","Next Generation Material Testing Lab","M19 is a 21<sup>st</sup> Century  <br> Material Innovation Engine "],
+                        typeSpeed:45,
+                        backSpeed:0,
+                        loop:true
+                    });
+
+                </script>
+        
+        <!--<a href="#" style="margin-left: 500px;" >Lab Brochure</a>-->
+       
+      </div>
+      <a href="#"><button type="button" style="margin-left: 430px;font-size: 20px;padding:6px 50px;margin-top: 10px;">Lab Brochure</button></a>
+    </div>
+      
+      
+    
+
+   <!-- <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Industries</a></li>
+        
+      </ul>
+    </div>-->
+
+    <!--<script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click',() => {
+          menuToggle.classList.toggle('active')
+          showcase.classList.toggle('active')
+
+      })
+    </script>-->
+      
+  </section>
+
+
+  <!--<section id="section-3">
+    <div class="content">
+
+      <h2 style="text-transform: uppercase; ">M19 Lab Products</h2>
+      <p style="text-transform: uppercase; margin-top: -18px; ">AI Based | Ultra - High Precision | Industry Specific </p>
+      <p style="margin-top: -20px;line-height: 28px;">We create game changing lab instruments for Micro and Nanoscale <br> Material Testing 
+        enabling you to develop the products of the future, <br> enhance your competitive advantage 
+        and market position. </p>
+    </div>
+
+  </section>-->
+
+  <section id="section-4" style="height: 1000px;" >
+    <div class="content">
+    <h2  style="text-transform: uppercase; margin-left: 470px;margin-top: -190px;animation-delay: 8s; animation-duration: 400ms;" ><span><img src="/images/favicon new.png" style="height: 50px; width: 50px;margin-bottom: -15px;"></span> Lab Products</h2>
+      <p style="text-transform: uppercase; margin-top: -29px;font-size: 15px; margin-left: 250px;">AI Based | Ultra - High Precision | Industry Specific </p>
+      <p style="margin-top: -20px;line-height: 28px; margin-left: 250px; text-align: center; font-size: 18px;">We create game changing lab testing instruments for Micro and Nanoscale <br> Material 
+        enabling you to develop the products of the future, and <br> Enhance your competitive advantage 
+        and market position. </p>
+
+        <h2 style="text-transform: uppercase;margin-left: 500px; color: #00c7c8;margin-top: 60px;">Select Industry</h2>
+     
+       
+      
+    <div class="">
+      <!--<img src="/images/grid.png" alt="" style="width: 1200px; height: 700px; margin-top: -90px;">-->
+
+      <div class="icon00-container" style="margin-left: 40px;margin-top: -70px;">
+        <!-- First row of icons -->
+        <div class="icon00">
+          <img src="/images/300x300 W/4.png" alt="Icon 1">
+          <a href="#"><p style="margin-left: 110px;margin-top: 35px;font-size: 15px;">GOVERNMENT</p></a>
+         
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/2.png" alt="Icon 2">
+         <a href="/dist/Industry Pages/defense.html" target="_blank"> <p style="margin-left: 110px;margin-top: 35px;font-size: 15px;">DEFENSE</p></a>
+        
+  
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/9.png" alt="Icon 3">
+         <a href="/dist/Industry Pages/aerospace.html" target="_blank"> <p style="margin-left: 110px;text-align: center;font-size: 15px;margin-top: 9px;">SPACE RESEARCH</p></a>
+       
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/5.png" alt="Icon 4">
+         <a href="/dist/Industry Pages/Oil & Gas.html" target="_blank"> <p style="margin-left: 130px;margin-top: 20px;font-size: 15px;">OIL&nbsp;&&nbsp;GAS</p></a>
+  
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/1.png" alt="Icon 5">
+          <a href="/dist/Industry Pages/Oil & Gas.html" target="_blank"><p style="margin-left: 110px;margin-top: 20px;font-size: 15px;">AIR&nbsp;POLLUTION</p></a>
+  
+        </div>
+        <div class="icon00" >
+          <img src="/images/300x300 W/11.png" alt="Icon 6">
+          <a href="/dist/Industry Pages/Water Filtration.html" target="_blank" ><p style="text-align: center;margin-left: 120px;font-size: 15px;">WATER PURIFICATION</p></a>
+         
+        </div>
+        <!-- Second row of icons -->
+        <div class="icon00">
+          <img src="/images/300x300 W/8.png" alt="Icon 7">
+          <a href="/dist/Industry Pages/Pharma.html" target="_blank"><p style="margin-left: 110px; margin-top: 35px;font-size: 15px;">PHARMA</p></a>
+  
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/textile.png" alt="Icon 8">
+          <a href="/dist/Industry Pages/Techtexiles.html" target="_blank"><p style="margin-left: 110px;text-align: center;font-size: 15px;margin-top: 12px;">TECHNICAL TEXTILES</p></a>
+  
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/energy.png" alt="Icon 9">
+          <a href="/dist/Industry Pages/Energy.html" target="_blank"><p style="margin-left: 110px;margin-top: 25px;font-size: 15px;">ENERGY</p></a>
+  
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/chemical.png" alt="Icon 10">
+          <a href="/dist/Industry Pages/chemical.html" target="_blank"><p style="margin-left: 110px;margin-top: 25px;font-size: 15px;">CHEMICAL</p></a>
+  
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/6.png" alt="Icon 11">
+          <a href="/dist/Industry Pages/Packaging.html" target="_blank h"><p style="margin-left: 110px;margin-top: 25px;font-size: 15px;">PACKAGING</p></a>
+  
+        </div>
+        <div class="icon00">
+          <img src="/images/300x300 W/7.png" alt="Icon 12">
+         <a href="/dist/Industry Pages/prsnlhygiene.html" target="_blank"> <p style="margin-left: 120px;text-align: center;font-size: 15px;">PERSONAL HYGIENE</p></a>
+  
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  </section>
+
+  <section id="section-5" style="height: 400px;">
+    <div class="dot" style="color: #000;margin-top: -20px;margin-left: 40px;letter-spacing: 0.3rem;text-transform: uppercase;">
+      <h1 style="font-size: 50px;font-family: 'Monoton', serif;font-weight: 300;text-align: center;"><span style="background-color: transparent;
+        background-image: linear-gradient(180deg, rgba(0, 199, 200, 1) 19%,rgba(48, 144, 179, 1) 30%, rgba(48, 102, 165, 1) 39%, rgba(49, 66, 154, 1) 49%, rgba(134, 56, 134, 1) 75%, rgba(185, 51, 123, 1) 100%, rgba(229, 47, 114, 1) 110%);
+        background-repeat : 'no-repeat';
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        animation: all 0.3s ease-in;font-family: 'Monoton', serif;font-weight: 400;">Accelerate Your Research </span></h1>
+      <h1 style="font-size: 50px;font-family: 'Monoton', serif;font-weight: 300;text-align: center;"><span style="background-color: transparent;
+        background-image: linear-gradient(180deg, rgba(0, 199, 200, 1) 19%,rgba(48, 144, 179, 1) 30%, rgba(48, 102, 165, 1) 39%, rgba(49, 66, 154, 1) 49%, rgba(134, 56, 134, 1) 75%, rgba(185, 51, 123, 1) 100%, rgba(229, 47, 114, 1) 110%);
+        background-repeat : 'no-repeat';
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        animation: all 0.3s ease-in;font-family: 'Monoton', serif;font-weight: 400;">Outsmart Your Competition </span></h1>
+      
+    </div>
+   <!-- <p style="color: #fff;font-size: 1.2em;margin-left: 150px;margin-top: 90px;letter-spacing:0.1rem;text-align: justify;font-family: 'Montserrat Thin';">We know how 3rd party lab data and lack of specialized lab <br> instruments cause R&D and QA/QC challenges.<br> <br>M19 lab can put you on the highway from data to insights.</p>-->
+
+  </section>
+  <section id="section-6" style="margin-top: -190px;background:url('/images/eg.jpg'); opacity: 0.9; animation-delay: 4s;" >
+    <div class="content" style="margin-top: -50px;" >
+        <h2 style="color: #fff;  margin-bottom: -90px;margin-top: 190px; text-transform: uppercase;margin-left: 460px;"><span><img src="/images/favicon new.png" style="height: 50px; width: 50px;margin-bottom: -15px;"></span> Lab Membership</h2>
+        <p style="color: #fff;  margin-top: 8px;text-transform: uppercase; margin-left: 350px;font-size: 15px;">
+          Exclusive Insights | Stellar team <br>
+          
+        </p>
+        <p style=" color: #fff; margin-top: -12px; line-height: 28px;margin-left:340px; font-size: 18px;">Get access to an exclusive invite - only lab membership program <br> where your team is supported by our world - class lab facility, <br> material testing experts, and a centralized database powered by A.I.
+        </p>
+
+        <div class="destiny" style="margin-left: 375px; margin-top: 9px;">
+          <button type="button" style="margin-left: 10px;">Learn More</button>
+          <button type="button" style="margin-left: 10px;">Download Brochure</button>
+          <button type="button" style="margin-left: 10px;">Apply</button>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--<div class="glass">
+      <div class="container3">
+      
+      <input type="checkbox" id="flip">
+      <div class="cover">
+        <div class="front">
+          <img src="../images/background.jpg" alt="">
+          <div class="text">
+            <span class="text-1">Every new friend is a <br> new adventure</span>
+            <span class="text-2">Let's get connected</span>
+          </div>
+        </div>
+        <div class="back">
+          <img class="backImg" src="../images/image_2022.jpg" alt="">
+          <div class="text">
+            <span class="text-1">Complete miles of journey <br> with one step</span>
+            <span class="text-2">Let's get started</span>
+          </div>
+        </div>
+      </div>
+      <div class="forms">
+          <div class="form-content">
+            <div class="login-form">
+              <div class="title">Login</div>
+            <form action="#">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input type="textnew" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Enter your password" required>
+                </div>
+                <div class="textnew"><a href="#"  style="color: #fff;">Forgot password?</a></div>
+                <div class="button input-box">
+                  <input type="submit" value="Submit">
+                </div>
+                <div class="textnew sign-up-text" style="color: #fff;">Don't have an account? <label for="flip">Signup now</label></div>
+              </div>
+          </form>
+        </div>
+          <div class="signup-form">
+            <div class="title">Signup</div>
+          <form action="#">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i class="fas fa-user"></i>
+                  <input type="textnew" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input type="textnew" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Enter your password" required>
+                </div>
+                <div class="button input-box">
+                  <input type="submit" value="Submit">
+                </div>
+                <div class="text sign-up-text" style="color: #fff; margin-top: 10px; text-align: center; font-size: 16px; left: 5%;">Already have an account? <label for="flip">Login now</label></div>
+              </div>
+        </form>
+      </div>
+      </div>
+      </div>
+    </div>-->
+ 
+  </section>
+  <section id="section-7" style="height: 700px;">
+    <div class="dot" style="color: #fff;margin-top: 90px;margin-left: 40px;letter-spacing: 0.3rem;text-transform: uppercase;">
+      <h1 style="font-size: 50px;font-family: 'Monoton', serif;font-weight: 300;text-align: center;left: 90%;"><span style="background-color: transparent;
+        background-image: linear-gradient(180deg, rgba(0, 199, 200, 1) 19%,rgba(48, 144, 179, 1) 30%, rgba(48, 102, 165, 1) 39%, rgba(49, 66, 154, 1) 49%, rgba(134, 56, 134, 1) 75%, rgba(185, 51, 123, 1) 100%, rgba(229, 47, 114, 1) 110%);
+        background-repeat : 'no-repeat';
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        animation: all 0.3s ease-in;font-family: 'Monoton', serif;font-weight: 400;">Experts in <br> Material Characterization</span></h1>
+      
+
+    </div>
+    <p style="color: #fff;font-size: 18px;margin-left: 30px;margin-top: 90px;letter-spacing:0rem;text-align: center;line-height: 28px;">We know how 3rd party lab data and lack of specialized lab <br> instruments cause R&D and QA/QC challenges.<br>M19 lab can put you on the highway from data to insights.</p>
+
+    <h1 style="font-size: 20px;text-align: center;margin-top: 30px;margin-left: 10px;letter-spacing: 0rem;color: #fff;">QUALITY ASSURANCE</h1>
+
+
+      <div class="icons"  style="display: flex;width: 70px;height: 70px;background-color: #fff;margin-top: 20px;margin-left: 480px">
+        <img src="../images/images.png" style="padding-right: 30px;">
+        <img src="../images/en neww.png" style="padding-right: 30px;">
+        <img src="../images/iso new11.png">
+
+      </div>
+  </section>
+
+  <!--<section id="section-8" style="background:url('/images/globenew.jpg'); opacity: 0.9;background-repeat: no-repeat;height: 400px;width: 15000px;">
+   
+    <div class="content" style="margin-top: -50px;" >
+      <h2 style="color: #fff;  margin-bottom: -90px;margin-top: 190px; text-transform: uppercase;margin-left: 460px;"><span><img src="/images/favicon new.png" style="height: 60px; width: 60px;margin-bottom: -20px;"></span> Lab Membership</h2>
+      <p style="color: #fff;  margin-top: 8px;text-transform: uppercase; margin-left: 350px;font-size: 15px;">
+        Exclusive Insights | Stellar team <br>
+        
+      </p>
+      <p style=" color: #fff; margin-top: -12px; line-height: 28px;margin-left:340px; font-size: 18px;">Get access to an exclusive invite - only lab membership program <br> where your team is supported by our world - class lab facility, <br> material testing experts, and a centralized database powered by A.I.
+      </p>
+
+      <div class="destiny" style="margin-left: 375px; margin-top: 9px;">
+        <button type="button" style="margin-left: 10px;">Learn More</button>
+        <button type="button" style="margin-left: 10px;">Download Brochure</button>
+        <button type="button" style="margin-left: 10px;">Apply</button>
+      </div>
+
+  </div>
+  </section>-->
+
+  <section id="section-8" style="margin-top: -90px;background:url('/images/earthnew.jpg'); opacity: 0.9;background-repeat: no-repeat;height: 400px;height: 500px; left:3%" >
+    <div class="content" style="margin-top: -100px;" >
+     
+        <h2 style="color: #fff;  margin-bottom: -900px;margin-top: 190px; text-transform: uppercase;margin-left: 450px;opacity: 1;font-size: 20px;">CORPORATE RESPONSIBILITY</h2>
+        <p style="color: #fff;margin-left: 235px;font-size: 16px;">Governance | Social | Environmental </p>
+        <p style=" color: #fff; margin-top: -1px; line-height: 28px;margin-left:240px; font-size: 18px;text-align: center;">We are committed to helping our customers minimize their carbon footprint, maximize recycling and waste reduction efforts and ensure the most efficient utilization of natural resources and raw materials.Through research and  innovation, we will continue to focus on creating a cleaner, healthier world.</p>
+        
+
+        <div class="destiny" style="margin-left: 375px; margin-top: 9px; color: #000;">
+          <button type="button" style="margin-left: 140px;">View More</button>
+        </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <section id="section-9"  style="height: 900px;">
+      <div class="content">
+        <h2 style="text-transform: uppercase;margin-left: 520px;margin-top: -40px;">Testimonials</h2>
+      </div>
+        <!-- partial:index.partial.html -->
+<div class="test">
+  <figure class="snip1139" style=" height:570px;">
+    <img src="/images/1.png" alt="sample3" style="margin-left: 60px;" >
+
+    <blockquote style="text-align: justify;">M19 lab team were able to quickly understand our research requirements and deploy indigenously developed systems for advanced filter characterizations. By combining their filtration expertise and lab facilities , M19 lab has provided excellent support. I appreciate your expertise and dedication to material characterization research.
+      <div class="arrow"></div>
+    </blockquote>
+    <div class="author">
+      <h5>Dr Praveen Chintalaya <span><br> Asst. Vice President <br> (Research & Development - Reliance Industries Limited)</span></h5>
+    </div>
+  </figure>
+
+  <figure class="snip1139" style=" height:570px;">
+    <img src="/images/2.png" alt="sample3" style="margin-left: 60px;margin-bottom: 20px;" >
+
+    <blockquote style="text-align: justify;">M19 lab team were able to quickly understand our research requirements and deploy indigenously developed systems for advanced filter characterizations. By combining their filtration expertise and lab facilities , M19 lab has provided excellent support. I appreciate your expertise and dedication to material characterization research.
+      <div class="arrow"></div>
+    </blockquote>
+    <div class="author">
+      <h5>Dr Praveen Chintalaya <span><br> Asst. Vice President <br> (Research & Development - Reliance Industries Limited)</span></h5>
+    </div>
+  </figure>
+  <figure class="snip1139" style=" height:570px;">
+    <img src="/images/3.png" alt="sample3" style="margin-left: 60px;margin-bottom: 20px;" >
+
+    <blockquote style="text-align: justify;">M19 lab team were able to quickly understand our research requirements and deploy indigenously developed systems for advanced filter characterizations. By combining their filtration expertise and lab facilities , M19 lab has provided excellent support. I appreciate your expertise and dedication to material characterization research.
+      <div class="arrow"></div>
+    </blockquote>
+    <div class="author">
+      <h5>Dr Praveen Chintalaya <span><br> Asst. Vice President <br> (Research & Development - Reliance Industries Limited)</span></h5>
+    </div>
+  </figure>
+  
+  
+
+  
+  <!-- partial -->
+      
+     
+        
+  
+</div>      
+      
+      <!--footer section-->
+
+    <footer>
+
+      
+      
+      <div class="pot">
+        <div class="footer-content">
+         
+          <a href="#section-1"><button type="button" style="margin-left: -20px;" >Return to Top</button></a> 
+          
+
+
+          <img src="../images/hr line.png">
+          <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab rerum placeat magni, tenetur numquam sequi quos! Quia alias totam facere accusantium, eum ut id, eius at veniam labore placeat sed.</p>-->
+          <ul class="socials">
+            <li><a href="/dist/Industry pages/contact.html">Contact</a></li>
+            <li><a href="https://twitter.com/m19_lab" target="_blank">Twitter</a></li>
+            <li><a href="https://www.youtube.com/@m19lab91" target="_blank">Youtube</a></li>
+            <li><a href="https://www.linkedin.com/company/m19/mycompany/
+              " target="_blank">Linkedin</a></li>
+          </ul>
+        </div>
+        
+      </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy; 2020 M19 Lab All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+      
+    </div>
+
+    
+  </div>
+
+ 
+
+
+
+
+  
+  </section>
+
+
+
+
+  
+
+
+
+  
+
+  
+
+
+ 
+</div>
+
+
+<!-- partial -->
+  <script src="./main2.js"></script>
+  <script src="./app.js"></script>
+  <!--<script src="./main.js"></script>-->
+ 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:300,
+      duration:400
+    });
+  </script>
+</body>
+</html>
